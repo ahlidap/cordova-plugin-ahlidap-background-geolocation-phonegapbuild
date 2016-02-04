@@ -19,7 +19,7 @@
 
     <!-- android -->
     <platform name="android">
-        <dependency id="cordova-plugin-googleplayservices" />
+        <!--<dependency id="cordova-plugin-googleplayservices" />-->
         <!-- not supported by phonegap build
         <framework src="com.google.android.gms:play-services-location:+" />
         -->
