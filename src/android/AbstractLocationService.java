@@ -109,8 +109,9 @@ public abstract class AbstractLocationService extends Service {
             setClickEvent(builder);
 
             Notification notification = builder.build();
-            notification.flags |= Notification.FLAG_ONGOING_EVENT | Notification.FLAG_FOREGROUND_SERVICE | Notification.FLAG_NO_CLEAR;
-            startForeground(startId, null);
+            //notification.flags |= Notification.FLAG_ONGOING_EVENT | Notification.FLAG_FOREGROUND_SERVICE | Notification.FLAG_NO_CLEAR;
+            notification.flags |= Notification.FLAG_ONGOING_EVENT;
+            startForeground(startId, notification);
         }
 
         //We want this service to continue running until it is explicitly stopped
