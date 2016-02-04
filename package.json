@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-mauron85-background-geolocation-phonegapbuild",
+  "name": "cordova-plugin-ahlidap-background-geolocation-phonegapbuild",
   "version": "0.9.4",
   "description": "Cordova Background GeoLocation Plugin",
   "cordova": {
@@ -32,10 +32,14 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": "",
-  "license": "Apache-2.0",
+  "author": "Pedro padilha <ahlidap.tm@gmail.com>",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/mauron85/cordova-plugin-background-geolocation/issues"
   },
-  "homepage": "https://github.com/mauron85/cordova-plugin-background-geolocation#readme"
+  "homepage": "https://github.com/mauron85/cordova-plugin-background-geolocation#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
