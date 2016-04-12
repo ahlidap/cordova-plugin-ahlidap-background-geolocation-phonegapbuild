@@ -1,9 +1,9 @@
 {
   "name": "cordova-plugin-ahlidap-background-geolocation-phonegapbuild",
-  "version": "0.9.6",
+  "version": "0.9.9",
   "description": "Cordova Background GeoLocation Plugin",
   "cordova": {
-    "id": "cordova-plugin-mauron85-background-geolocation-phonegapbuild",
+    "id": "cordova-plugin-ahlidap-background-geolocation-phonegapbuild",
     "platforms": [
       "android",
       "ios",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mauron85/cordova-plugin-mauron85-background-geolocation-phonegapbuild.git"
+    "url": "git+https://github.com/ahlidap/cordova-plugin-ahlidap-background-geolocation-phonegapbuild.git"
   },
   "keywords": [
     "gps",
